@@ -11,3 +11,4 @@ st.header('ADD HOURS OF STUDY BELOW')
 hours = st.number_input("ENTER HOURS")
 
 st.success("PREDICTED SCORE OF THE STUDENT: {}".format(model.predict([[hours]])))
+	
